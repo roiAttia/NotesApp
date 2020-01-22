@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="roiattia.com.notesapp.ui.fragments.notes.NotesFragment"
+        android:label="notes_fragment"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/foldersFragment"
+        android:name="roiattia.com.notesapp.ui.fragments.folders.FoldersFragment"
+        android:label="folders_fragment"
+        tools:layout="@layout/fragment_folders" />
+</navigation>
